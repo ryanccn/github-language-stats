@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@ryanccn/gql':
-    specifier: ^0.3.0
-    version: 0.3.0
+    specifier: ^1.0.0
+    version: 1.0.0
   graphql:
     specifier: ^16.7.1
     version: 16.7.1
@@ -1604,8 +1604,8 @@ packages:
     resolution: {integrity: sha512-AW8PKd6iX3vAZ0vA43nOUOnbq/X5ihgU+mSXXqunMkeQADGiqw/PY0JNeYtD5sr0PAy51YPgAPbDoeapv9r8WA==}
     dev: true
 
-  /@ryanccn/gql@0.3.0:
-    resolution: {integrity: sha512-FR3XKS0RhzWz7XJhrZCj1aVItW2F8jMjhiG1mYAimryVzyOkj+GHbC0eHl16D4zcM0e9i82sF011JGKEt1uzvA==}
+  /@ryanccn/gql@1.0.0:
+    resolution: {integrity: sha512-HKs1a2G1UVzjclNIclH+bghACwtO72MIEPT98vdVGJA8nvV0ADaVkLg+lDwm9qqHDszN8b1UsF3S5J9hwXXHQg==}
     dev: false
 
   /@total-typescript/ts-reset@0.4.2:

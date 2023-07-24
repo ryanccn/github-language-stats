@@ -7,7 +7,7 @@
 		"graphql": "graphql-codegen --config .graphql-codegen.yml && prettier --write src/graphql.generated.ts"
 	},
 	"dependencies": {
-		"@ryanccn/gql": "^0.3.0",
+		"@ryanccn/gql": "^1.0.0",
 		"graphql": "^16.7.1",
 		"graphql-tag": "^2.12.6",
 		"svgo": "^3.0.2",
