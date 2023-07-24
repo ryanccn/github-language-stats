@@ -1,0 +1,27 @@
+{
+	"name": "github-language-stats",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "tsx src/index.ts",
+		"graphql": "graphql-codegen --config .graphql-codegen.yml && prettier --write src/graphql.generated.ts"
+	},
+	"dependencies": {
+		"@ryanccn/gql": "^0.3.0",
+		"graphql": "^16.7.1",
+		"graphql-tag": "^2.12.6",
+		"svgo": "^3.0.2",
+		"tsx": "^3.12.7"
+	},
+	"devDependencies": {
+		"@graphql-codegen/cli": "4.0.1",
+		"@graphql-codegen/typescript": "4.0.1",
+		"@graphql-codegen/typescript-document-nodes": "4.0.1",
+		"@graphql-codegen/typescript-operations": "^4.0.1",
+		"@total-typescript/ts-reset": "^0.4.2",
+		"@types/node": "^20.4.4",
+		"prettier": "^3.0.0",
+		"typescript": "^5.1.6"
+	},
+	"packageManager": "pnpm@8.6.9"
+}
