@@ -9,7 +9,8 @@
 		"allowSyntheticDefaultImports": true,
 		"isolatedModules": true,
 		"skipLibCheck": true,
-		"noEmit": true
+		"noEmit": true,
+		"types": ["bun-types"]
 	},
 	"include": ["**/*.ts", "src/index.ts"],
 	"exclude": ["node_modules", "**/node_modules/*"]
